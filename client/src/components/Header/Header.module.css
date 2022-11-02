@@ -1,0 +1,14 @@
+.header {
+    font-size: 0.7vw;
+    color: whitesmoke;
+    background-color: black;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.items {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1.7%;
+}
+
