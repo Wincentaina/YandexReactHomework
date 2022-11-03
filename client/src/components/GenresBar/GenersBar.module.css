@@ -1,0 +1,17 @@
+.genres_bar {
+    background-color: white;
+    padding: 2%;
+    width: 24%;
+    border-radius: 20px;
+    height: 100%;
+    padding-bottom: 25vh;
+}
+
+.genre_main {
+    margin-bottom: 7%;
+}
+
+.genre_text {
+    font-size: 1.3vw;
+    font-weight: normal;
+}

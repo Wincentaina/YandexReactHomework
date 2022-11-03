@@ -8,7 +8,7 @@ const StorePage = (props) => {
     return (
         <div className={s.store}>
             <GenresBar books={books}/>
-            <BooksContainer />
+            <BooksContainer books={books}/>
         </div>
     );
 };

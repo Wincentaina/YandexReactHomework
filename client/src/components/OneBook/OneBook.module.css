@@ -1,0 +1,33 @@
+.book {
+    padding: 2%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+.name {
+    font-size: 1.45vw;
+    margin-bottom: 2.2%;
+}
+
+.author {
+    margin-bottom: 1.2%;
+}
+
+.genre {
+    margin-bottom: 0.75%;
+}
+
+.info {
+    margin-bottom: 2.2%;
+}
+
+.rating {
+
+}
+
+.price {
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
