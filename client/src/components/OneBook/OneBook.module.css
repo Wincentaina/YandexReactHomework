@@ -3,6 +3,13 @@
     background-color: white;
     border-radius: 20px;
     margin-bottom: 2%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.inform_block {
+    width: 85%;
 }
 
 .name {
@@ -30,4 +37,47 @@
     font-size: 1.7vw;
     font-weight: bolder;
 }
+
+.book_buttons {
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.min_button {
+    padding: 10% 28%;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 50%);
+    color: whitesmoke;
+    font-size: 1.2vw;
+    border: none;
+}
+
+.counter {
+    font-size: 1.6vw;
+    color: rgba(0, 0, 0, 50%);
+    margin-left: 32%;
+    margin-right: 32%;
+}
+
+.plus_button {
+    padding: 10% 35%;
+    border-radius: 3px;
+    font-size: 1.2vw;
+    border: none;
+}
+
+.min_button:hover {
+    cursor: pointer;
+}
+
+.plus_button:hover {
+    cursor: pointer;
+}
+
+
 

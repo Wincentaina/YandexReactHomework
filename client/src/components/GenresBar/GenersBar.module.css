@@ -9,9 +9,14 @@
 
 .genre_main {
     margin-bottom: 7%;
+    cursor: pointer;
 }
 
 .genre_text {
     font-size: 1.3vw;
     font-weight: normal;
+}
+
+.active_genre_text {
+    font-weight: bold;
 }
