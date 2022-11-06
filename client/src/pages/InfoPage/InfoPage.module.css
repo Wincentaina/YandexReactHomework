@@ -1,0 +1,31 @@
+
+.info {
+    width: 88%;
+    margin: 2% auto;
+}
+
+.top {
+    display: flex;
+}
+
+.annotation {
+    margin-left: 3%;
+    padding: 3% 2%;
+    background-color: white;
+    border-radius: 2vw;
+    margin-bottom: 2%;
+    width: 55%;
+    align-items: center;
+    font-size: 1.1vw;
+    font-weight: lighter;
+}
+
+.an_title {
+    font-weight: bold;
+    margin-bottom: 2.2%;
+}
+
+.reviews {
+
+}
+

@@ -1,7 +1,7 @@
 .book {
     padding: 2%;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 2vw;
     margin-bottom: 2%;
     display: flex;
     width: 100%;
@@ -19,65 +19,20 @@
 
 .author {
     margin-bottom: 1.2%;
+    font-size: 1.15vw;
 }
 
 .genre {
     margin-bottom: 0.75%;
+    font-size: 1.15vw;
 }
 
 .info {
     margin-bottom: 2.2%;
 }
 
-.rating {
-
-}
-
 .price {
     font-size: 1.7vw;
     font-weight: bolder;
 }
-
-.book_buttons {
-
-}
-
-.buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.min_button {
-    padding: 10% 28%;
-    border-radius: 3px;
-    background-color: rgba(0, 0, 0, 50%);
-    color: whitesmoke;
-    font-size: 1.2vw;
-    border: none;
-}
-
-.counter {
-    font-size: 1.6vw;
-    color: rgba(0, 0, 0, 50%);
-    margin-left: 32%;
-    margin-right: 32%;
-}
-
-.plus_button {
-    padding: 10% 35%;
-    border-radius: 3px;
-    font-size: 1.2vw;
-    border: none;
-}
-
-.min_button:hover {
-    cursor: pointer;
-}
-
-.plus_button:hover {
-    cursor: pointer;
-}
-
-
 
