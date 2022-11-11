@@ -2,23 +2,22 @@ import React, {useContext} from 'react';
 import s from './GenersBar.module.css'
 import {InfoContext} from "../../context/InfoContext";
 import classNames from "classnames";
+import {useSelector} from "react-redux";
+import {selectGenre} from "../../store/genre/selectors";
 
-const GenresBar = ({books}) => {
+const GenresBar = () => {
+    const genres = useSelector((state) => selectGenre(state))
     const MyContext = useContext(InfoContext)
-
-    const genres = []
-    books.map((item) => {
-        if (genres.indexOf(item.type) === -1){
-            genres.push(item.type)
-        }
-        return 1
-    })
 
     const changeGenre = (e) => {
         MyContext.setCurrentGenre(e.target.textContent)
     }
 
-    let elements = genres.map((item) => {
+    const only_genre = genres.map((item) => {
+        return item.name
+    })
+
+    let elements = only_genre.map((item) => {
         if (item === MyContext.currentGenre) {
             return (
                 <h3 className={s.genre_main} key={item} onClick={changeGenre}>
