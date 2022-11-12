@@ -5,10 +5,12 @@ import {InfoContext} from "../../context/InfoContext";
 import {useDispatch, useSelector} from "react-redux";
 import {selectGenres} from "../../store/genre/selectors";
 import {loadBooksIfNotExist} from "../../store/book/loadBooksIfNotExist";
-import {selectBooks} from "../../store/book/selectors";
+import {selectBookById, selectBooks} from "../../store/book/selectors";
+import {useParams} from "react-router-dom";
 
 
 const BooksContainer = ({info}) => {
+
     let {name, id} = info
     let genreId = id
 

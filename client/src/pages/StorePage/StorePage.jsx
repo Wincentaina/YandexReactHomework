@@ -13,13 +13,12 @@ const StorePage = () => {
     useEffect(() => {
         dispatch(loadGenresIfNotExist)
     }, [])
-    // "5f824b12-fb0b-4619-b510-6db9de0130eb"
 
     const genres = useSelector((state) => selectGenres(state))
     const [currentGenre, setCurrentGenre] = useState({
         name: "Художественная литература",
         id: "5f824b12-fb0b-4619-b510-6db9de0130eb"
-    }) // разобраться с изначальным значением состояния
+    })
     return (
         <InfoContext.Provider value={{currentGenre, setCurrentGenre}}>
             <div className={s.store}>

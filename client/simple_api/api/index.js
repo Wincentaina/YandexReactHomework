@@ -25,13 +25,13 @@ router.get("/books/:id", (req, res, next) => {
   reply(res, result);
 });
 
-router.get("/reviews", (req, res, next) => {
+router.get("/reviews/:id", (req, res, next) => {
   const { id } = req.query;
   let result = reviews;
   if (id) {
-    const cinema = getById(genres)(id);
+    const book = getById(genres)(id);
     if (genre) {
-      result = cinema.reviews.map(getById(result));
+      result = book.reviews.map(getById(result));
     }
   }
   reply(res, result);

@@ -1,9 +1,14 @@
 .header {
     font-size: 0.7vw;
-    color: whitesmoke;
     background-color: black;
     font-weight: bold;
     margin-bottom: 2%;
+}
+
+.link {
+    text-underline: none;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 .items {

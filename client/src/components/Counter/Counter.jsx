@@ -20,9 +20,9 @@ const Counter = ({bookId}) => {
     return (
         <div className={s.book_buttons}>
             <div className={s.buttons}>
-                <button className={s.min_button} onClick={min_count}>—</button>
+                <button disabled={count === 0} className={s.min_button} onClick={min_count}>—</button>
                 <p className={s.counter}>{count || 0}</p>
-                <button className={s.plus_button} onClick={plus_count}>+</button>
+                <button disabled={count === 5} className={s.plus_button} onClick={plus_count}>+</button>
             </div>
         </div>
     );
