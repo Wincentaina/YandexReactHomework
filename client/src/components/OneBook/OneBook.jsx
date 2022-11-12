@@ -4,7 +4,6 @@ import Counter from "../Counter/Counter";
 import Rating from "../Rating/Rating";
 
 const OneBook = ({info}) => {
-
     return (
         <div className={s.book}>
             <div className={s.inform_block}>
@@ -16,7 +15,7 @@ const OneBook = ({info}) => {
                 </div>
                 <p className={s.price}>{info.price} ₽</p>
             </div>
-            <Counter />
+            <Counter bookId={info.id}/>
         </div>
     );
 };
