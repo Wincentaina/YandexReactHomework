@@ -14,6 +14,7 @@ export const bookSlice = createSlice({
     reducers: {
         startLoading: (state) => {
             state.status = Statuses.inProgress
+            state.entities = {}
         },
         successLoading: (state, action) => {
             state.status = Statuses.success

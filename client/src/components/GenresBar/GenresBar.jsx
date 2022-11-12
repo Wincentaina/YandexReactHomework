@@ -9,25 +9,44 @@ const GenresBar = () => {
     const genres = useSelector((state) => selectGenres(state))
     const MyContext = useContext(InfoContext)
 
-    const changeGenre = (e) => {
-        MyContext.setCurrentGenre(e.target.textContent)
-    }
-
     const only_genre = genres.map((item) => {
-        return item.name
+        const tmp = {}
+        tmp.name = item.name
+        tmp.id = item.id
+        return tmp
     })
 
-    let elements = only_genre.map((item) => {
-        if (item === MyContext.currentGenre) {
+    const changeGenre = (e) => {
+        let id = ""
+        let text = e.target.textContent
+        only_genre.filter((item) => {
+            if (item.name === text) {
+                id = item.id
+                return
+            }
+            return;
+        })
+        MyContext.setCurrentGenre((prev) => {
             return (
-                <h3 className={s.genre_main} key={item} onClick={changeGenre}>
-                    <span className={classNames(s.genre_text, s.active_genre_text)}>{item}</span>
+                {
+                    name: text,
+                    id: id
+                }
+            )
+        })
+    }
+
+    let elements = only_genre.map((item) => {
+        if (item.name === MyContext.currentGenre.name) {
+            return (
+                <h3 className={s.genre_main} key={item.id} onClick={changeGenre} id={item.id}>
+                    <span className={classNames(s.genre_text, s.active_genre_text)}>{item.name}</span>
                 </h3>
             )
         }
         return (
-            <h3 className={s.genre_main} key={item} onClick={changeGenre}>
-                <span className={s.genre_text}>{item}</span>
+            <h3 className={s.genre_main} key={item.id} onClick={changeGenre} id={item.id}>
+                <span className={s.genre_text}>{item.name}</span>
             </h3>
         )
     })

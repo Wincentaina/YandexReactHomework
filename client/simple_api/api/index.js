@@ -6,20 +6,22 @@ router.get("/genres", (req, res, next) => {
   reply(res, genres);
 });
 
-router.get("/books", (req, res, next) => {
-  const { genreId, bookId } = req.query;
+router.get("/books/:id", (req, res, next) => {
+  let genreId = req.params.id
+  // const { genreId, bookId } = req.query;
   let result = books;
 
   if (genreId) {
     const genre = getById(genres)(genreId);
+
     if (genre) {
-      result = genre.films.map(getById(result));
+      result = genre.books.map(getById(result));
     }
   }
 
-  if (!genreId && bookId) {
-    result = getById(result)(bookId);
-  }
+  // if (!genreId && bookId) {
+  //   result = getById(result)(bookId);
+  // }
   reply(res, result);
 });
 

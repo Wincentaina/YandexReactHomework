@@ -6,7 +6,7 @@ export const loadBooksIfNotExist = (genreId) => (dispatch, getState) => {
     //     return
     // }
     dispatch(bookSlice.actions.startLoading())
-    fetch(`http://localhost:3001/api/books?id=${genreId}`)
+    fetch(`http://localhost:3001/api/books/${genreId}`)
         .then((response) => response.json())
         .then(books => {
             dispatch(bookSlice.actions.successLoading(prepareData(books)))
