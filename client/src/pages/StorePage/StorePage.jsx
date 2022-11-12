@@ -4,7 +4,7 @@ import GenresBar from "../../components/GenresBar/GenresBar";
 import BooksContainer from "../../components/BooksContainer/BooksContainer";
 import {InfoContext} from "../../context/InfoContext";
 import {useDispatch, useSelector} from "react-redux";
-import {selectGenre} from "../../store/genre/selectors";
+import {selectGenres} from "../../store/genre/selectors";
 import {loadGenresIfNotExist} from "../../store/genre/loadGenresIfNotExist";
 
 const StorePage = () => {
@@ -14,7 +14,7 @@ const StorePage = () => {
         dispatch(loadGenresIfNotExist)
     }, [])
 
-    const genres = useSelector((state) => selectGenre(state))
+    const genres = useSelector((state) => selectGenres(state))
     const [currentGenre, setCurrentGenre] = useState(genres[0]) // разобраться с изначальным значением состояния
     return (
         <InfoContext.Provider value={{currentGenre, setCurrentGenre}}>

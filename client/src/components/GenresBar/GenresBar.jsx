@@ -3,10 +3,10 @@ import s from './GenersBar.module.css'
 import {InfoContext} from "../../context/InfoContext";
 import classNames from "classnames";
 import {useSelector} from "react-redux";
-import {selectGenre} from "../../store/genre/selectors";
+import {selectGenres} from "../../store/genre/selectors";
 
 const GenresBar = () => {
-    const genres = useSelector((state) => selectGenre(state))
+    const genres = useSelector((state) => selectGenres(state))
     const MyContext = useContext(InfoContext)
 
     const changeGenre = (e) => {
