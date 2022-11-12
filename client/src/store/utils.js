@@ -1,4 +1,5 @@
 export const prepareData = (items) => {
+
     return {
         entities: items.reduce((acc, genre) => {
             acc[genre.id] = genre
@@ -7,3 +8,5 @@ export const prepareData = (items) => {
         ids: items.map(({id}) => id)
     }
 }
+
+

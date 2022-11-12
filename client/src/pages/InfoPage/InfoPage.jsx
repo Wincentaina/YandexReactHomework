@@ -1,23 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import s from "./InfoPage.module.css"
 import OneBook from "../../components/OneBook/OneBook";
 import Review from "../../components/Review/Review";
 import {useParams} from "react-router-dom";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {selectBookById} from "../../store/book/selectors";
+import {loadReviewsIfNotExist} from "../../store/review/loadReviewsIfNotExist";
+import {selectReviewById, selectReviews} from "../../store/review/selectors";
 
 const InfoPage = () => {
 
     const {bookId} = useParams()
     const book_selected = useSelector((state) => selectBookById(state, bookId))
-
     const reviews = book_selected.reviews
-    let elements = reviews.map((item) => {
 
-        return (<Review reviews={item} key={item.id}/>)
+    let elements = reviews.map((item) => {
+        return (<Review reviewId={item} key={item}/>)
     })
 
-    console.log(book_selected)
     return (
         <div className={s.info}>
             <div className={s.top}>
@@ -28,7 +28,7 @@ const InfoPage = () => {
                 </div>
             </div>
             <div className={s.reviews}>
-                {/*{elements}*/}
+                {elements}
             </div>
         </div>
     );

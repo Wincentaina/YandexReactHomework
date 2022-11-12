@@ -18,6 +18,7 @@ export const reviewSlice = createSlice({
         },
         successLoading: (state, action) => {
             state.status = Statuses.success
+
             state.entities = {...state.entities, ...action.payload.entities}
             state.ids = Array.from(new Set([...state.ids, ...action.payload.ids]))
         },
@@ -26,3 +27,4 @@ export const reviewSlice = createSlice({
         }
     }
 })
+

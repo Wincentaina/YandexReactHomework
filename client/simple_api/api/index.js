@@ -26,13 +26,16 @@ router.get("/books/:id", (req, res, next) => {
 });
 
 router.get("/reviews/:id", (req, res, next) => {
-  const { id } = req.query;
+  let reviewId = req.params.id
+
   let result = reviews;
-  if (id) {
-    const book = getById(genres)(id);
-    if (genre) {
-      result = book.reviews.map(getById(result));
+  if (reviewId) {
+    const review = getById(reviews)(reviewId);
+
+    if (review) {
+      result = review
     }
+
   }
   reply(res, result);
 });
