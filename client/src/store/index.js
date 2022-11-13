@@ -1,6 +1,6 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
 import {genreSlice} from "./genre";
-import {bookSlice, oneBookSlice} from "./book";
+import {allBooksSlice, bookSlice, oneBookSlice} from "./book";
 import {cartSlice} from "./cart";
 import {reviewSlice} from "./review";
 
@@ -10,7 +10,8 @@ export const store = configureStore({
         book: bookSlice.reducer,
         cart: cartSlice.reducer,
         review: reviewSlice.reducer,
-        oneBook: oneBookSlice.reducer
+        oneBook: oneBookSlice.reducer,
+        allBooks: allBooksSlice.reducer
     }),
     middleware: (getDefaultMiddleware) => getDefaultMiddleware(),
 })

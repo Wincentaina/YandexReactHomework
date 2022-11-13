@@ -3,8 +3,9 @@ import s from "./ShortBook.module.css"
 import {useDispatch, useSelector} from "react-redux";
 import {loadBookIfNotExist} from "../../store/book/loadBooksIfNotExist";
 import {selectBookById} from "../../store/book/selectors";
+import {selectBookCount, selectBooksCounters} from "../../store/cart/selector";
 
-const ShortBook = ({bookId}) => {
+const ShortBook = ({bookId, cnt}) => {
 
     const [data, setData] = useState({
         id: "",
@@ -30,7 +31,7 @@ const ShortBook = ({bookId}) => {
         setData(
             res
         )
-    } , [book])
+    }, [book])
 
     return (
         <div className={s.short_container}>

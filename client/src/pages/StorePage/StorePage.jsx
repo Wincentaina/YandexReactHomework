@@ -8,8 +8,8 @@ import {selectGenres} from "../../store/genre/selectors";
 import {loadGenresIfNotExist} from "../../store/genre/loadGenresIfNotExist";
 
 const StorePage = () => {
-    const dispatch = useDispatch()
 
+    const dispatch = useDispatch()
     useEffect(() => {
         dispatch(loadGenresIfNotExist)
     }, [])
