@@ -31,11 +31,12 @@ const InfoPage = () => {
     })
 
     const current_book = useSelector((state) => selectBookById(state, bookId))
-    console.log("current", current_book)
+
     useEffect(() => {
         setBook_selected(
             (prev) => {
-                let res = {...current_book}
+                // let res = {...current_book}
+                let res = Object.assign({}, current_book)
                 return (
                     res
                 )
@@ -43,11 +44,13 @@ const InfoPage = () => {
         )
     }, [current_book])
 
-    console.log("selected", book_selected.reviews)
-    console.log(typeof(book_selected.reviews))
-    // let elements = book_selected.reviews.map((item) => {
-    //     return (<Review reviewId={item} key={item}/>)
-    // })
+    let elements = []
+
+    let arr = Object.assign([], book_selected.reviews)
+
+    elements = arr.map((item) => {
+        return (<Review reviewId={item} key={item}/>)
+    })
 
     return (
         <div className={s.info}>
@@ -59,7 +62,7 @@ const InfoPage = () => {
                 </div>
             </div>
             <div className={s.reviews}>
-                {/*{elements}*/}
+                {elements}
             </div>
         </div>
     );
