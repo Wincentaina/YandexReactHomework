@@ -11,6 +11,7 @@ const Review = ({reviewId}) => {
         name: "",
         rating: "",
         text: "",
+        id: ""
     })
 
     const dispatch = useDispatch()
@@ -22,8 +23,9 @@ const Review = ({reviewId}) => {
 
     useEffect(() => {
         setReview((prev) => {
+            let res = {...rev}
             return (
-                {...prev, ...rev}
+                res
             )
         })
     }, [rev])

@@ -6,6 +6,20 @@ router.get("/genres", (req, res, next) => {
   reply(res, genres);
 });
 
+router.get("/book/:id", (req, res, next) => {
+  let bookId = req.params.id
+
+  let result = books
+  let book = {}
+  if (bookId) {
+    book = getById(books)(bookId)
+  }
+  if (book) {
+    result = book
+  }
+  reply(res, result)
+})
+
 router.get("/books/:id", (req, res, next) => {
   let genreId = req.params.id
   // const { genreId, bookId } = req.query;

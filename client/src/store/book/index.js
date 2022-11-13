@@ -26,3 +26,21 @@ export const bookSlice = createSlice({
         }
     }
 })
+
+export const oneBookSlice = createSlice({
+    name: 'oneBook',
+    initialState,
+    reducers: {
+        startLoading: (state) => {
+            state.status = Statuses.inProgress
+        },
+        successLoading: (state, action) => {
+            state.status = Statuses.success
+            state.entities = {...state.entities, ...action.payload.entities}
+            state.ids = Array.from(new Set([...state.ids, ...action.payload.ids]))
+        },
+        failLoading: (state) => {
+            state.status = Statuses.failed
+        }
+    }
+})

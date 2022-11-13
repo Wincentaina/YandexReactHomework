@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64d37e3b-6a83-4b8f-b913-9ad2d8e914f7" name="Changes" comment="" />
+    <list default="true" id="64d37e3b-6a83-4b8f-b913-9ad2d8e914f7" name="Changes" comment="">
+      <changelist_data name="Wincentaina" email="103582986+wincentaina@users.noreply.github.com" date="1668256150000" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/14.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/15.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/18.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/simple_api/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/simple_api/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Review/Review.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Review/Review.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/InfoPage/InfoPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/InfoPage/InfoPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/book/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/book/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/book/loadBooksIfNotExist.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/book/loadBooksIfNotExist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/book/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/book/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="react-redux" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="2GyfYT1USzbVh36HN18ORrj3KwA" />
   <component name="ProjectViewState">
@@ -15,6 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/components/RevItem" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -46,11 +86,37 @@
       <workItem from="1667365792785" duration="4188000" />
       <workItem from="1667374593650" duration="27560000" />
       <workItem from="1667741140079" duration="24000" />
-      <workItem from="1668167059114" duration="42207000" />
+      <workItem from="1668167059114" duration="44509000" />
+      <workItem from="1668267678947" duration="109000" />
+      <workItem from="1668267798802" duration="426000" />
+      <workItem from="1668268236722" duration="6407000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="react-redux" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
