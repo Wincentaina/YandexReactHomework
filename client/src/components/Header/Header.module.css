@@ -15,5 +15,11 @@
     width: 95%;
     margin: 0 auto;
     padding: 1.7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.cart_container > img{
+    height: 2.4vw;
+}

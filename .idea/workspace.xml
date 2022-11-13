@@ -3,12 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="64d37e3b-6a83-4b8f-b913-9ad2d8e914f7" name="Changes" comment="">
       <changelist_data name="Wincentaina" email="103582986+wincentaina@users.noreply.github.com" date="1668256150000" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CartCards/CartCards.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CartCards/CartCards.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ShortBook/ShortBook.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ShortBook/ShortBook.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Total/Total.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Total/Total.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/imgs/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/CartPage.jsx/CartPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/CartPage.jsx/CartPage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/10.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/15.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/14.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/18.pack" afterDir="false" />
@@ -17,8 +27,13 @@
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/OneBook/OneBook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/OneBook/OneBook.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/InfoPage/InfoPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/InfoPage/InfoPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +72,11 @@
       <recent name="$PROJECT_DIR$/client/simple_api/api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components/Total" />
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/client/src/context" />
       <recent name="$PROJECT_DIR$/client/src/components/Layout" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/client/src/constants" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +93,7 @@
       <workItem from="1668167059114" duration="44509000" />
       <workItem from="1668267678947" duration="109000" />
       <workItem from="1668267798802" duration="426000" />
-      <workItem from="1668268236722" duration="7704000" />
+      <workItem from="1668268236722" duration="12318000" />
     </task>
     <servers />
   </component>

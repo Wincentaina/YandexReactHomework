@@ -1,0 +1,18 @@
+.short_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5%;
+    margin: 2%;
+}
+
+.book_name {
+    font-size: 1.15vw;
+    font-weight: 400;
+    color: #454545;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.15vw;
+}

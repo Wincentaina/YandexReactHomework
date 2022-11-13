@@ -8,7 +8,7 @@ const OneBook = ({info}) => {
     return (
         <div className={s.book}>
             <div className={s.inform_block}>
-                <NavLink className={s.link} to={info.id}>
+                <NavLink className={s.link} to={"/" + info.id}>
                     <h2 className={s.name}>{info.name}</h2>
                 </NavLink>
                 <div className={s.info}>

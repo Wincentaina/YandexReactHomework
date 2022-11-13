@@ -14,7 +14,6 @@ const InfoPage = () => {
 
     const dispatch = useDispatch()
     useEffect(() => {
-        console.log("Loading..")
         dispatch(loadBookIfNotExist(bookId))
     }, [])
 
@@ -35,7 +34,6 @@ const InfoPage = () => {
     useEffect(() => {
         setBook_selected(
             (prev) => {
-                // let res = {...current_book}
                 let res = Object.assign({}, current_book)
                 return (
                     res
