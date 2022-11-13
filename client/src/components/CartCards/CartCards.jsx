@@ -19,13 +19,25 @@ const CartCards = () => {
         ]
     }
 
+    const fake_second = {
+        id: "1589b873-6f9c-4c11-97db-94a4c2303323",
+        name: "Книга ночи",
+        type: "Художественная литература",
+        author: "Блэк Холли",
+        genre: "Фэнтези",
+        price: "350",
+        rating: "3",
+        annotation: "Очередная книга самого известного из всех неизвестных авторов фантастики. Далее мне лень что-либо придумывать, поэтому вставлю старый текст. Присоединяйся к дружной компании черных магов и просто любителей гулять по ночным кладбищам. Ведь с ними твоя жизнь заиграет всеми оттенками черного. Вперед, Тесса Грей!",
+        reviews: [
+            "c2e5fa00-0c15-4f43-a750-cbc7b42343fe",
+            "b90782d3-6c86-43b9-b7dc-7e057de8cd9b"
+        ]
+    }
+
     return (
         <div className={s.cards}>
             <OneBook info={fake_data}/>
-            <OneBook info={fake_data}/>
-            <OneBook info={fake_data}/>
-            <OneBook info={fake_data}/>
-            <OneBook info={fake_data}/>
+            <OneBook info={fake_second}/>
         </div>
     );
 };

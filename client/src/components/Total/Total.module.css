@@ -40,6 +40,11 @@
     background-color: black;
 }
 
+.buy:hover {
+    cursor: pointer;
+    background-color: #3f3f3f;
+}
+
 .itog {
     font-weight: bold;
 }
