@@ -15,7 +15,7 @@ const StorePage = () => {
     }, [])
 
     const genres = useSelector((state) => selectGenres(state))
-    const [currentGenre, setCurrentGenre] = useState({
+    const [currentGenre, setCurrentGenre] = useState({ //
         name: "Художественная литература",
         id: "5f824b12-fb0b-4619-b510-6db9de0130eb"
     })

@@ -23,7 +23,7 @@ const BooksContainer = ({info}) => {
 
     const books = useSelector((state) => selectBooks(state))
 
-    let elements = books.map((item) => {
+    let elements = books.map((item) => { //
         return <OneBook info={item} key={item.id} />
     })
 
