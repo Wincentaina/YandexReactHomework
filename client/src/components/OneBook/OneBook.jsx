@@ -14,7 +14,7 @@ const OneBook = (props) => {
         let id = info.id
     }
 
-    const [data, setData] = useState({
+    const [data, setData] = useState({ //
         id: "",
         name: "",
         type: "",
