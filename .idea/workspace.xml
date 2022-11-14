@@ -3,36 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="64d37e3b-6a83-4b8f-b913-9ad2d8e914f7" name="Changes" comment="">
       <changelist_data name="Wincentaina" email="103582986+wincentaina@users.noreply.github.com" date="1668256150000" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/19.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/19.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/20.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/20.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/21.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/21.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/22.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/22.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/23.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/23.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/simple_api/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/simple_api/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/simple_api/api/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/simple_api/api/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ShortBook/ShortBook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ShortBook/ShortBook.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Total/Total.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Total/Total.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/CartPage.jsx/CartPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/CartPage.jsx/CartPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/StorePage/StorePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/StorePage/StorePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/book/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/book/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/book/loadBooksIfNotExist.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/book/loadBooksIfNotExist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/book/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/book/selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/cart/selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/cart/selector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +63,7 @@
       <workItem from="1668167059114" duration="44509000" />
       <workItem from="1668267678947" duration="109000" />
       <workItem from="1668267798802" duration="426000" />
-      <workItem from="1668268236722" duration="32297000" />
+      <workItem from="1668268236722" duration="33184000" />
     </task>
     <servers />
   </component>
